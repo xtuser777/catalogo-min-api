@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "w6w+EOA32Gn3GuUphFReMF26zx+3EwOqDNs62g3QNRGaA6mmPrx+ijE4LrYW4wz9/9JbB00Sn+BbN2tbT6YjPg==",
+  "dgSpecHash": "bbleeAroy4+CQpNHdUspL10dbwNAKPNmPlmna/SDDdd9gJKgBLjF1VUX5aLTTm1ya1f4SUavpksIk+9Q5OQqzA==",
   "success": true,
   "projectFilePath": "/home/lucas/github/CatalogoApi/CatalogoApi.csproj",
   "expectedPackageFiles": [
     "/home/lucas/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.25/microsoft.aspnetcore.authentication.jwtbearer.6.0.25.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore/6.0.25/microsoft.entityframeworkcore.6.0.25.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.25/microsoft.entityframeworkcore.abstractions.6.0.25.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.25/microsoft.entityframeworkcore.analyzers.6.0.25.nupkg.sha512",
@@ -20,6 +22,11 @@
     "/home/lucas/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.10.0/microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.identitymodel.logging/6.10.0/microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.identitymodel.tokens/6.10.0/microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/lucas/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
     "/home/lucas/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
@@ -29,7 +36,9 @@
     "/home/lucas/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
-    "/home/lucas/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/home/lucas/.nuget/packages/system.identitymodel.tokens.jwt/6.10.0/system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
