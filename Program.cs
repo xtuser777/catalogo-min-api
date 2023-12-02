@@ -54,6 +54,21 @@ app.MapPut("/categorias/{id:int}", async (int id, Categoria categoria, CatalogoA
     return Results.Ok(categoriaDb);
 });
 
+app.MapDelete("/categorias/{id:int}", async (int id, CatalogoApiContext db) =>
+{
+    if (db.Categorias is null) return Results.StatusCode(StatusCodes.Status500InternalServerError);
+
+    var categoria = await db.Categorias.FindAsync(id);
+
+    if (categoria is null) return Results.NotFound();
+
+    db.Categorias.Remove(categoria);
+
+    await db.SaveChangesAsync();
+
+    return Results.NoContent();
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
